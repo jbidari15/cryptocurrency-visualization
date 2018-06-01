@@ -1,0 +1,44 @@
+
+.items{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.detail{
+    border:1px solid green;
+    margin:10px;
+    height:300px;
+    
+}
+.name{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+.item{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+input[type="text"]{
+    height:40px;
+    width:250px;
+    margin-left: 5px;
+    
+}
+.buttons{
+    display:flex;
+    margin-bottom:30px;
+    justify-content: center;
+    
+}
+.buttons button{
+    margin-left: 50px;
+    width:200px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.search{
+text-transform: uppercase;
+}
